@@ -71,10 +71,8 @@ const config = {
     accentColor: "#9CA3AF",
     primaryDark: "",
     softBg: "",
-    // TODO: Upload logo to assets/images/logo.png (or .svg) and set logoUrl, e.g. "assets/images/logo.png"
-    logoUrl: "",
-    // TODO: Replace template hero — upload your clinic hero to assets/images/hero.jpg
-    heroImageUrl: "assets/images/hero.jpg",
+    logoUrl: "assets/images/logo.jpeg",
+    heroImageUrl: "assets/images/hero.jpeg",
   },
 
   // ---------------------------------------------------------------------------
@@ -255,8 +253,7 @@ const config = {
         en: "Specialist in 100% digital dentistry with an in-house fixed ceramic prosthetics lab. He combines smile design technology with a close, personalized approach for every patient.",
         es: "Especialista en odontología 100% digital, con laboratorio propio de prótesis fijas cerámicas. Combina tecnología de diseño de sonrisa con un enfoque cercano y personalizado para cada paciente.",
       },
-      // TODO: Upload Dr. Wilfredo Ferrari's photo to assets/images/dentist-wilfredo-ferrari.jpg and update this path
-      photoUrl: "assets/images/dentist.jpg",
+      photoUrl: "assets/images/dentist.jpeg",
     },
   ],
 
@@ -332,11 +329,17 @@ const config = {
   ],
 
   // ---------------------------------------------------------------------------
-  // SMILE GALLERY — empty array hides the section until you add images
-  // TODO: Upload gallery photos to assets/images/gallery/ and list paths here, e.g.:
-  // "assets/images/gallery/smile-01.jpg"
+  // SMILE GALLERY
   // ---------------------------------------------------------------------------
-  gallery: [],
+  gallery: [
+    "assets/images/gallery/IMG_0384.jpeg",
+    "assets/images/gallery/IMG_0385.jpeg",
+    "assets/images/gallery/IMG_0386.jpeg",
+    "assets/images/gallery/IMG_0387.jpeg",
+    "assets/images/gallery/IMG_0388.jpeg",
+    "assets/images/gallery/IMG_0389.jpeg",
+    "assets/images/gallery/IMG_0390.jpeg",
+  ],
 
   // ---------------------------------------------------------------------------
   // SOCIAL LINKS — leave blank to hide that icon
